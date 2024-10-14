@@ -5,7 +5,7 @@
 **Server Manager**
 
 • Dans **Server Manager**, se rendre dans **Local Server**
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Config%20ServeurWin-1.png)
+#![](https://raw.githubusercontent.com/)
 Vérifier les points suivants:
 
 *   Remote management “**Enabled**” (Activer)
@@ -18,48 +18,48 @@ Vérifier les points suivants:
 **Adresse IP**
 
 • Ouvrir le menu *Démarrer*, chercher le **Panel Control**. Ouvrir le **Panel Control**.
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Config%20ServeurWin-2.png)
+#![](https://raw.githubusercontent.com/)
 
 • Définir la préférence pour afficher les dossiers : "**large**" ou "**small**".
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Config%20ServeurWin-3.png)
+#![](https://raw.githubusercontent.com/)
 
 
 • Ouvrir “**Network and Sharing center**”.
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Config%20ServeurWin-4.png)
+#![](https://raw.githubusercontent.com/)
 
 • Aller dans la catégorie “**Change adapter settings”**.
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Config%20ServeurWin-5.png)
+#![](https://raw.githubusercontent.com/)
 
 • Sélectionner la carte **“Ethernet 2”**.
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Config%20ServeurWin-6.png)
+#![](https://raw.githubusercontent.com/)
 
 • Effectuer un clic droit puis sélectionner “**Properties**”. 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Config%20ServeurWin-7.png)
+#![](https://raw.githubusercontent.com/)
   
 • Sélectionner “**Internet Protocol Version 4(TCP/IPV4)**” puis cliquer sur “**Properties**”.
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Config%20ServeurWin-8.png)
+#![](https://raw.githubusercontent.com/)
   
 • Dans "**IP address**", rentrer les valeurs suivantes: “**172.16.10.10**”, 
 puis dans: “Subnet Mask(masque de sous réseaux)”:”**255.255.255.0”**.
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Config%20ServeurWin-9.png)
+#![](https://raw.githubusercontent.com/)
 
 
 **Firewall/Pare-feu**
 
 • Ouvrir le menu *Démarrer*, chercher le **Panel Control**. Ouvrir le "**Panel Control**". 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Config%20ServeurWin-2.png)
+#![](https://raw.githubusercontent.com/)
   
 • Sélectionner “**Systems and Security**”.
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Config%20ServeurWin-10.png)
+#![](https://raw.githubusercontent.com/)
   
 • Ouvrir “**Windows Defender Firewall**”.
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Config%20ServeurWin-11.png)
+#![](https://raw.githubusercontent.com/)
   
 • Sélectionner “**Turn Windows Defender Firewall on or off**”.
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Config%20ServeurWin-12.png)
+#![](https://raw.githubusercontent.com/)
   
 • Désactiver les "*settings*" *privés* et *publics*.
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Config%20ServeurWin-13.png)
+#![](https://raw.githubusercontent.com/)
 
 ### Configuration Poste Client
 
@@ -67,37 +67,36 @@ puis dans: “Subnet Mask(masque de sous réseaux)”:”**255.255.255.0”**.
 
 - Renseigner dans la barre de recherche en bas à gauche de votre écran : “**Panneau de configuration**”. Cliquer sur l’onglet “Panneau de configuration”.
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Config_poste_cient_1.jpg)
+#![](https://raw.githubusercontent.com/)
 
 
 - Ensuite, aller dans l’onglet “**Réseau et Internet**”.
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/config_poste_client_2.jpg)
+#![](https://raw.githubusercontent.com/)
 
 
 - Puis l’onglet “**Centre Réseau et partage**”.
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/config_poste_client_3.jpg)
-
+#![](https://raw.githubusercontent.com/)
 
 - En suivant, sur la gauche de la fenêtre, cliquer sur l’onglet “**Modifier les paramètres de la carte**”.
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/config_poste_client_4.jpg)
+#![](https://raw.githubusercontent.com/)
 
 
 - Sélectionner “**Ethernet 2***”.
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/config_poste_client_5.jpg)
+#![](https://raw.githubusercontent.com/)
 
 
 - Effectuer un clic droit > “**Propriétés**”. 
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/config_poste_client_6.jpg)
+#![](https://raw.githubusercontent.com/)
 
 
 - Sélectionner “**Protocole Internet version 4 (TCP/IPv4)**” puis cliquer sur “**Propriétés**”.
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/config_poste_client_7.jpg)
+#![](https://raw.githubusercontent.com/)
 
 
 - Décocher “Obtenir une adresse IP automatiquement” en cochant “Utiliser l’adresse IP suivante”
@@ -108,17 +107,17 @@ Laisser le reste par défaut et valider en appuyant sur “OK”.
 
 - Depuis le *Panneau de configuration*, aller dans “**Système et sécurité**” > “**Pare-Feu Windows Defender**”
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/config_poste_client_11.jpg)
+#![](https://raw.githubusercontent.com/)
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/config_poste_client_8.jpg)
+#![](https://raw.githubusercontent.com/)
 
 - Sur la gauche de la fenêtre, aller dans l’onglet “Activer ou désactiver le Pare-Feu Windows Defender”.
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/config_poste_client_9.jpg)
+#![](https://raw.githubusercontent.com/)
 
 - Décocher “Activer le Pare-Feu Windows Defender” en cochant “Désactiver le Pare-Feu Windows Defender” pour les paramètres des réseaux privés et publics.
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/config_poste_client_10.jpg)
+#![](https://raw.githubusercontent.com/)
 
 - Valider l’opération en cliquant sur “OK”.
 
@@ -131,32 +130,32 @@ Laisser le reste par défaut et valider en appuyant sur “OK”.
 #
 - Aller dans le menu " **START** "
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/ACTIV%20SERV%20start.jpg)
+#![](https://raw.githubusercontent.com/)
 
 #
 - Aller dans " **SETTINGS** "
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/ACTIV%20SERV%20settings.jpg)
+#![](https://raw.githubusercontent.com/)
 
 #
 - Aller dans " **SYSTEM** " 
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/ACTIV%20SERV%20systeme.jpg)
+#![](https://raw.githubusercontent.com/)
 
 #
 - Aller dans " **REMOTE DESKTOP** "
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/ACTIV%20SERV%20remote%20desktop.jpg)
+#![](https://raw.githubusercontent.com/)
 
 #
 - Cocher l'onglet " **ENABLE REMOTE DESKTOP** "
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/ACTIV%20SERV%20enable.jpg)
+#![](https://raw.githubusercontent.com/)
 
 #
 - Puis " **CONFIRM** " pour valider l'activation
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/ACTIV%20SERV%20confim.jpg?raw=true)
+#![](https://raw.githubusercontent.com/)
 
 
 ### Test connexion
@@ -164,17 +163,17 @@ Laisser le reste par défaut et valider en appuyant sur “OK”.
 #
 - Sur le poste Client, se rendre dans "**BARRE DES T CHES**".
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/CONNEX%20bad.jpg)
+#![](https://raw.githubusercontent.com/)
 
 #
 - Taper "**CONNEXION BUREAU A DISTANCE**".
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/CONNEX%20%20barre%20co.jpg)
+#![](https://raw.githubusercontent.com/)
 
 #
 - Cliquer sur l'application "**CONNEXION BUREAU A DISTANCE**".
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/CONNEX%20connex%20bad.jpg)
+#![](https://raw.githubusercontent.com/)
 
 #
 - Lors de la première connexion, dans le champs "**ORDINATEUR**" renseigner l'adresse IP ou le nom de l'ordinateur.
@@ -182,7 +181,7 @@ Laisser le reste par défaut et valider en appuyant sur “OK”.
 - Nom de l'ordinateur : SRVWIN01
 - Cliquer sur "**CONNEXION**".
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/CONNEX%20connexion.jpg)
+#![](https://raw.githubusercontent.com/)
 
 #
 - Renseigner les champs suivants avec le nom d'utilisateur et le mot de passe du poste Server.
@@ -190,27 +189,27 @@ Laisser le reste par défaut et valider en appuyant sur “OK”.
 - Mot de passe : Azerty1*
 - Valider par OK
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/ACTIV%201%20connexion.jpg)
+#![](https://raw.githubusercontent.com/)
 
 #
 - Cette page va s'afficher, vérifier que la navigation est fonctionnelle et que vous pouvez faire des actions sur le poste Serveur.
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/CONNEX%20connecte%C3%A9%20serv.jpg)
+#![](https://raw.githubusercontent.com/)
 
 #
 - Pour faciliter les prochaines connexions, nous allons créer un raccourci.
 - Relancer le logiciel "**CONNEXION BUREAU A DISTANCE**" et cette fois appuyer sur sur la flèche allant vers le bas "**AFFICHER LES OPTIONS**"
 
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/Option_RDP.jpg)
+#![](https://raw.githubusercontent.com/)
 
 - Renseigner une nouvelle fois les champs "**ORDINATEUR**" et "**NOM D'UTILISATEUR**" avec les données précédentes.
 - Cliquer sur "**ENREGISTRER SOUS**"
 - Nommer le fichier RDP et le sauvegarder sur le Bureau.
  
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/RDP_extend_full.png)
+#![](https://raw.githubusercontent.com/)
 
 # 
 - Tester la connexion via le raccourci et vérfier que tout fonctionne.
   
-![](https://raw.githubusercontent.com/WildCodeSchool/TSSR-2402-P1-G2-Teleassistance/main/Images/RDP_shortcut.png)
+#![](https://raw.githubusercontent.com/)
 
