@@ -24,7 +24,9 @@
 **Server Manager**
 
 • Dans **Server Manager**, se rendre dans **Local Server**
-![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/lassana_config/Images/Config_poste_cient_1.jpg) Vérifier les points suivants:
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/lassana_config/Images/Config_poste_cient_1.jpg)  
+
+Vérifier les points suivants:
 
 *   Remote management “**Enabled**” (Activer)
     
