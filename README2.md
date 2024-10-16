@@ -1,6 +1,6 @@
 ##  
 
-![teleassistance.png](Documents/tssrimage/image.png]
+
 
 # **Téléassistance**
 
