@@ -1,4 +1,4 @@
-###  Installation et configuration TightVNC poste Serveur et poste Client
+### 4. Installation et configuration TightVNC poste Serveur et poste Client
 
 ﻿**Le logiciel TightVNC**
 
@@ -32,8 +32,7 @@ La méthode la plus simple est de télécharger le fichier compatible pour l’i
 Section d'installation de TightVNC sous Windows
 
 Le fichier s’exécute sous la forme d’un **didacticiel** vous guidant pendant les étapes de l’installation.
-![](https://raw.githubusercontent.com/
-)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVnc1.png)
 
 
 Le programme d’installation propose **3 options** classiques :
@@ -41,8 +40,7 @@ Le programme d’installation propose **3 options** classiques :
 - L’installation **typique**, tout se passe de manière automatique avec les composants et leurs valeurs par défaut (partie serveur, partie cliente, mot de passe, emplacement sur le disque, etc.) ;
 - L’installation **Custom,** ici le programme demande confirmation et de chaque étape ;
 - L’installation **Complète,** identique à la première option, mais en incluant tous les composants disponibles. 
-![](https://raw.githubusercontent.com/
-)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNC2%20(2).png)
 
 
 
@@ -50,7 +48,7 @@ Dans notre cas, je vous propose de passer par **l’installation personnalisée 
 
 L’étape suivante consiste à sélectionner le type d’installation. S'il s'agit du poste **qui sera contrôlé** à distance, dans ce cas il faut installer TightVNC **Server.** S’il s’agit du poste avec lequel **vous prendrez le contrôle** à distance d’un autre, il faut installer TightVNC **Client.(voir installation coté client)**
 
-![](https://raw.githubusercontent.com/
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNCServ3.png
 )
 
 
@@ -66,7 +64,7 @@ Le programme d’installer propose ensuite la configuration de **4 options disti
 - Enfin, dernière option, il s’agit d’ajouter une règle dans le **Firewall** Windows afin de **laisser passer les flux réseaux** concernant TightVNC.
 
 
-![](https://raw.githubusercontent.com/
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNCServ4.png
 )
 
 
@@ -75,7 +73,7 @@ Fenêtre de tâches additionnelles
 Je vous propose donc de **cocher les 4 options** proposées. Notez que Windows vous demandera très probablement confirmation de l’action, car nous ajoutons ici des règles systèmes supplémentaires.
 
 
-![](https://raw.githubusercontent.com/
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNCServ5.png
 )
 
 
@@ -87,7 +85,7 @@ Le panneau suivant est important car il permet de **sécuriser** l’installatio
 - **Le premier** mot de passe va permettre de **sécuriser la prise de contrôle** à distance sur ce poste. **Chaque client** VNC souhaitant s’y connecter devra connaître ce mot de passe (Nous avons choisit : "**Remote1***") ;
 - **Le second** permet de **sécuriser le comportement et la configuration** de TighVNC sur ce poste. **Chaque modification** dans la configuration ou l’exécution du serveur TightVNC devra être confirmée avec ce mot de passe (Nous avons choisit : "**Admin5-**") .
 
-![](https://raw.githubusercontent.com/
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNCServ6.png
 )
 
 
@@ -101,7 +99,7 @@ Voilà ! L’installation se termine ici. Nous allons maintenant vérifier que t
 
 Normalement, une icône supplémentaire VNC s’est ajoutée dans la barre des tâches Windows.
 
-![](https://raw.githubusercontent.com/
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNCServ7.png
 )
 
 
@@ -111,7 +109,7 @@ Cette icône nous permet d’accéder au panneau de configuration, je reviendrai
 
 Vous avez également des **raccourcis supplémentaires** en fonction des composants installés dans le menu Windows tels que : 
 
-![](https://raw.githubusercontent.com/
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNCServ8.png
 )
 
 
@@ -120,7 +118,7 @@ Raccourcis supplémentaires
 
 Par ailleurs, si vous avez sélectionné l’option d’installation de TightVNC en tant que service, vous retrouverez la ligne associée dans le menu services de Windows, telle que :
 
-![](https://raw.githubusercontent.com/
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNCServ9.png
 )
 
 
@@ -129,7 +127,7 @@ Service de TightVNC dans le menu services Windows
 De plus, vous pouvez également retrouver la règle ajoutée pour TightVNC dans le **Firewall** de Windows telle que :
 
 
-![](https://raw.githubusercontent.com/
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNCServ10.png
 )
 
 
@@ -143,7 +141,7 @@ netstat -abp TCP
 
 Vous pourrez constater l’ouverture de deux ports par défaut, 5800 et 5900.
 
-![](https://raw.githubusercontent.com/
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNCServ11.png
 )
 
 
@@ -159,14 +157,14 @@ Cependant, si vous n’avez pas coché l’option lors du processus d’installa
 
 Par exemple, pour **enregistrer TightVNC** en tant que service :
 
-![](https://raw.githubusercontent.comServ12.png)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNCServ12.png)
 
 Attention, cette action inscrit le service dans les registres Windows **sans le démarrer**. Il est nécessaire soit de **redémarrer** Windows, soit de le **lancer à la main** pour démarrer le serveur.
 
 
 A l’inverse pour **supprimer le service** TightVNC (sans pour autant désinstaller le programme) :
 
-![](https://raw.githubusercontent.comServ13.png)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNCServ13.png)
 
 Supprimer le service TightVNC
 
@@ -177,60 +175,60 @@ Windows sollicitera une **confirmation** pour ces deux actions, qui sont égalem
 
 Télécharger et installer TightVNC Viewer : <http://www.tightvnc.com/download.php>
 
-![](https://raw.githubusercontent.comA9chargement.png)
+![](https://github.com/lienTelechargement)
 
 Une fois installé, il suffit de suivre les étapes telles qu'indiquées dans les images.
 
-!![](https://raw.githubusercontent.comtightVnc1.png)
+!![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVnc1.png)
 
 
-![](https://raw.githubusercontent.comtightVNC2%20(2).png)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNC2%20(2).png)
 
 Choisir "**Custom**".
 
-![](https://raw.githubusercontent.com/tightVNC3.png)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNC3.png)
 
 Cliquer sur la petite icône à coté de TightVNC et sélectionner la petite croix. De ce fait, il n'y aura que le TightVNC Viewer d'installé. L’autre sera inutile du coté client. Puis appuyer sur "**Next**".
 
-![](https://raw.githubusercontent.comtightVNC4.png)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNC4.png)
 
 De nouveau sur "**Next**".
 
-![](https://raw.githubusercontent.comtightVNC5.png)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNC5.png)
 
 Puis "**Install**".
 
-![](https://raw.githubusercontent.comtightVNC6.png)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNC6.png)
 
 
-![](https://raw.githubusercontent.comtightVNC7.png)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNC7.png)
 
 L'installation devrait alors se dérouler normalement.
 
-![](https://raw.githubusercontent.com/tightVNC8.png)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNC8.png)
 
 Aller dans le disque dur de votre ordinateur > Program Files > rentrer dans le dossier de TightVNC. Une fois dedans, clic droit sur le fichier indiqué sur l’image puis sélectionner « Create shortcut ».
 
-![](https://raw.githubusercontent.comtightVNC9.png)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNC9%20(1).png)
 
 Ceci est l’icône qui devrait apparaître sur votre Bureau.
 
-### 2. Test connexion TightVNC
+### 5. Test connexion TightVNC
 
 Double-cliquez sur l'icône de lancement du logiciel.
 
-![](https://raw.githubusercontent.comtightVNC9.png)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/tightVNC9%20(1).png)
 
 Une fois le logiciel lancé, on devrait avoir cette fenêtre qui s'ouvre:
 
-![](https://raw.githubusercontent.comTighVnc%20ouverture.png)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/TighVnc%20ouverture.png)
 
 Il est possible de se connecter soit par le nom du server (SRVWIN01) soit par son adresse IP (172.16.10.10).
 Puis insérer le mot de passe : **Remote1*** (ou celui que vous avez défini lors l'installaiton de TightVNC sur le poste serveur).
 
 Nous avons un onglet option établi par défaut 
 
-![](https://raw.githubusercontent.comoption%20par%20defaut.png)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/option%20par%20defaut%20(1).png)
 
 Il y a toujours la possibilité de jouer avec les paramètres par défaut pour améliorer l'utilisation.
 
@@ -238,11 +236,11 @@ Appuyer sur **Connect** pour lancer la connexion.
 Une fois connecté(e) vous devriez avoir ce rendu.  
 L'affichage d'un écran noir en fond sur le poste Serveur est normal.  
 
-![](https://raw.githubusercontent.comTightVnc%20%C3%A9crans.png)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/TightVnc%20e%CC%81crans.png)
 
 Il y a une barre d'icônes en haut de la fenêtre de TightVNC.  
 
-![](https://raw.githubusercontent.comTightVnc%20barre%20d'icons.jpg)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/TightVnc%20barre%20d'icons.jpg)
 
 De gauche à droite : 
 - nouvelle connexion: permet d'ouvrir une nouvelle connexion en plus de la première
@@ -271,7 +269,7 @@ Répondre "**No**" à la question, cela empêche le logiciel de conserver le mot
 Double-cliquez sur le raccourci nouvellement créé sur le bureau et l'image suivante devrait apparaître :  
 ![](https://raw.githubusercontent.comTightVnc%20ouverture.png)
 
-### 3. Configuration de l'accès sécurisé via TightVNC par filtrage d'adresse IP (depuis serveur)
+### 6. Configuration de l'accès sécurisé via TightVNC par filtrage d'adresse IP (depuis serveur)
 
 Depuis le poste serveur renseignez dans la barre de recherche en bas à gauche de votre écran : “TightVNC Service - Offline Configuration". Cliquez sur l'application du même nom.
 ![](https://raw.githubusercontent.comsecu_tight_VNC1.jpg)
@@ -290,18 +288,18 @@ Cliquez sur le bouton "**Add**" pour paramétrer la ou les adresses IP considér
 Dans la case "First matching", entrez l'adresse IP du poste client concerné (dans notre cas 172.16.10.20). Si vous souhaitez étendre la plage des adresses IP concernées, alors remplir la case "Last matching IP" au-dessous avec la dernière adresse IP voulue. Dans le cas contraire, laissez cette case vide. Il est alors possible de donner l'accès "Allow", refusez l'accès ("Deny") ou encore de laisser le choix à l'utilisateur par le biais d'une fenêtre qui s'ouvrira lors de la requête de téléassistance émise par le poste client "Query local user".
 Dans notre cas, et pour des raisons de sécurité et de contrôle, nous cochons cette dernière et appuyons sur "**OK**".
 
-![](https://raw.githubusercontent.comsecu_tight_VNC4.jpg)
-![](https://raw.githubusercontent.comsecu_tight_VNC5.jpg)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/secu_tight_VNC4.jpg)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/secu_tight_VNC5.jpg)
 
 
 Ne pas oublier d'appliquer nos options à l'utilisation de TightVNC en cliquant d'abord sur "Apply" avant de fermer la fenêtre ou d'appuyer sur "**OK**".
 
-![](https://raw.githubusercontent.comsecu_tight_VNC6.jpg)
+![](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/jessy_config_tightvnc/images/secu_tight_VNC6.jpg)
 
-### 4. Utilisation d'un script powershell pour faciliter la connexion au poste serveur
+### 7. Utilisation d'un script powershell pour faciliter la connexion au poste serveur
 
 
-### 5. FAQ
+### 8. FAQ
 
 
 ### Bureau d'accès à distance
@@ -388,5 +386,4 @@ Vérifiez que le poste client est bien toutes les autorisation pour éxecuter de
 _**Le script se lance depuis le poste client et indique que la connexion est en cours mais rien s'affiche ou il se ferme tout de suite ?**_
 
 Verifiez que les raccourcis **RDP.RDP** et **config_co_pserv** sont bien présent sur le bureau, s'ils n'y sont pas, il faut les recréer.
-
 
