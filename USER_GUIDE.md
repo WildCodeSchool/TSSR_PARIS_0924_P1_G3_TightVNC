@@ -1,6 +1,6 @@
-## ![ligne horizontale][image1] 
 
-![Exemple d&\#39;image][image2]
+
+
 
 # **Téléassistance**
 
