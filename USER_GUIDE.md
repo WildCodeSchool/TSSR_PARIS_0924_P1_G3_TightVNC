@@ -104,8 +104,7 @@ Vous allez voir une fenêtre vous demandant de choisir le type d’installation.
 
 •Complete (Complète) : Installe toutes les fonctionnalités, mais nécessite plus d’espace disque.
 
-![][image3]
-
+[](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/GRD_HACK/Images/tighvnc1.png)
 Pour la plupart des cas, Typical est recommandé. Sélectionnez cette option et cliquez sur Next.
 
 *3\. Configuration des tâches supplémentaires*
@@ -122,15 +121,21 @@ Voici ce que vous devriez cocher :
 
       
 
-![][image4]
-
+[](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/GRD_HACK/Images/tightvnc-02.png)
 Après avoir coché ces cases, cliquez sur Next.
+
+[](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/GRD_HACK/Images/tightvnc-03.png)
+
+[](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/GRD_HACK/Images/tightvnc-04.png)
+
+[](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/GRD_HACK/Images/tightvnc-05.png)
+
 
 *4\. Installation du programme*
 
 Une fois les options définies, cliquez sur Install. L’installation se lancera, et une barre de progression s’affichera. Une fois l’installation terminée, vous aurez la possibilité de lancer TightVNC immédiatement. Sinon, vous pouvez le démarrer manuellement plus tard via le menu Démarrer.
 
-![][image5]
+[](https://github.com/WildCodeSchool/TSSR_PARIS_0924_P1_G3_TightVNC/blob/GRD_HACK/Images/tightvnc-06.png)
 
 *5\. Configuration initiale du serveur TightVNC*
 
