@@ -1,1 +1,0 @@
-# TSSR_PARIS_0924_P1_G3_TightVNC
